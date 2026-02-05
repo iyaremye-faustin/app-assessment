@@ -61,8 +61,10 @@ mvn spring-boot:run
 
 # View consumer Kafka logs and confirm it is successful
 # Checking the process terminal 
-![Output One](./assets/image.png)
-![Output two](./assets/image2.png)
+<img width="1374" height="600" alt="image" src="https://github.com/user-attachments/assets/1c75c193-e089-490f-9a5b-cdb8d55be07c" />
+
+<img width="1374" height="600" alt="image" src="https://github.com/user-attachments/assets/e4259a73-2b8f-42f1-b605-4355a3ac46d3" />
+
 - You can also check the logs
 docker-compose logs -f consumer | grep "\[KAFKA RAW\]"
 
